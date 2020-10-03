@@ -1,0 +1,33 @@
+.c-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: $grid-sm-gutter;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+
+    @include bp-min('sm') {
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: $grid-sm-gutter;
+    }
+
+    @include bp-min('md') {
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: $grid-md-gutter;
+    }
+
+    @include bp-min('lg') {
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: $grid-lg-gutter;
+    }
+
+    // col spans are calculated in Grid.js
+    // as styled.components, so we can feed
+    // values in through the API
+    &__col {
+        @include bp-max('sm') {
+            grid-column: 1 / span 4;
+        }
+    }
+}

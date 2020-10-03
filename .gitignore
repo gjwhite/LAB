@@ -34,7 +34,7 @@ yarn-error.log*
 
 
 # deploy uses yarn,and it is advised to remove this lock file from the repo
-yarn-lock.json
+yarn.lock
 # --- START WEBSCRIPTS --- #
 
 # config files

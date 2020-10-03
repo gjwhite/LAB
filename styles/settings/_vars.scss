@@ -1,0 +1,10 @@
+$root-breakpoints: (
+    'sm': 600px,
+    'md': 960px,
+    'lg': 1680px,
+);
+
+// Grid
+$grid-sm-gutter: 20px;
+$grid-md-gutter: 24px;
+$grid-lg-gutter: 30px;
