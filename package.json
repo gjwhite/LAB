@@ -10,9 +10,28 @@
   "dependencies": {
     "framer-motion": "^2.7.7",
     "next": "9.5.3",
+    "prettier": "^2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.11",
     "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "stylelint": "^13.6.1",
+        "stylelint-at-rule-no-children": "^0.3.1",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-recommended-scss": "^4.2.0",
+        "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+        "stylelint-high-performance-animation": "^1.5.1",
+        "stylelint-order": "^4.1.0",
+        "stylelint-prettier": "^1.1.2",
+        "stylelint-scss": "^3.18.0"
+  },
+  "autoprefixer": {
+    "grid": "autoplace",
+    "browsers": [
+      "> 1%"
+    ]
   }
 }

@@ -1,0 +1,48 @@
+{
+    "people": [
+    {
+        "name": "Gareth White",
+        "role": "Enveloper",
+        "image": "/images/johnson-wang-iI4sR_nkkbc-unsplash.jpg",
+        "expression": {
+            "neutral": "/images/faces/happy.png",
+            "worried": "/images/faces/worried.png",
+            "happy": "/images/faces/neutral.png"
+        },
+        "location": "Wellington"
+    },
+    {
+        "name": "Gareth White",
+        "role": "Enveloper",
+        "image": "/images/johnson-wang-iI4sR_nkkbc-unsplash.jpg",
+        "expression": {
+            "neutral": "/images/faces/happy.png",
+            "worried": "/images/faces/worried.png",
+            "happy": "/images/faces/neutral.png"
+        },
+        "location": "Wellington"
+    },
+    {
+        "name": "Gareth White",
+        "role": "Enveloper",
+        "image": "/images/johnson-wang-iI4sR_nkkbc-unsplash.jpg",
+        "expression": {
+            "neutral": "/images/faces/happy.png",
+            "worried": "/images/faces/worried.png",
+            "happy": "/images/faces/neutral.png"
+        },
+        "location": "Wellington"
+    },
+    {
+        "name": "Gareth White",
+        "role": "Enveloper",
+        "image": "/images/johnson-wang-iI4sR_nkkbc-unsplash.jpg",
+        "expression": {
+            "neutral": "/images/faces/happy.png",
+            "worried": "/images/faces/worried.png",
+            "happy": "/images/faces/neutral.png"
+        },
+        "location": "Wellington"
+    }
+]
+}

@@ -1,0 +1,53 @@
+.c-person {
+    $this: &;
+
+    position: relative;
+    z-index: 1;
+    display: block;
+    color: inherit;
+    cursor: grab;
+
+    //margin-bottom: spacing('layout', 'xxs');
+
+    &.s-active {
+        cursor: grabbing;
+        z-index: 2;
+    }
+
+    &__card {
+        margin-bottom: calc(30px - 20px); //$grid-xs-gutter
+
+        @include bp-min('sm') {
+            margin-bottom: calc(45px - 24px); //$grid-sm-gutter
+        }
+
+        @include bp-min('md') {
+            margin-bottom: calc(60px - 24px); //$grid-md-gutter
+        }
+    }
+
+    &__expression {
+        background-color: currentColor;
+        pointer-events: none;
+        position: relative;
+        margin-bottom: 9px;
+
+        @include bp-min('sm') {
+            margin-bottom: 18px;
+        }
+    }
+
+    &__image {
+        display: block;
+    }
+
+    &__name {
+
+        margin-bottom: 0;
+    }
+
+    &__role {
+
+        margin-bottom: 0;
+    }
+}

@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </a>
 
-          <Link href="/peopleDrag">
+          <Link href="/dragpeople">
             <a>Drag people</a>
           </Link>
         </div>
