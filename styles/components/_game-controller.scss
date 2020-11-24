@@ -1,0 +1,33 @@
+.c-game-controller {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    border: 1px solid #c5c5c5;
+
+    &__pad {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        background: #d5d5d5;
+        box-shadow: inset 0 0 5px -2px #242424;
+    }
+
+    &__joy-stick {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background: rgb(82, 82, 82);
+        background: radial-gradient(
+            circle,
+            #616161 50%,
+            #525252 60%,
+            #282828 82%,
+            #202020 87%
+        );
+        box-sizing: border-box;
+    }
+}

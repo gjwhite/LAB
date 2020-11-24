@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.c-svg-button {
+    $this: &;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //padding: 55px 70px;
+    width: 200px;
+    height: 200px;
+    color: #ffffff;
+    cursor: pointer;
+
+    &.s-active {
+        //transform: scale(1.1);
+    }
+
+    &__effect {
+        filter: url(#noise);
+        border: solid 4px #43b1ff;
+        background-color: #3636a0;
+        box-shadow: inset 0px 0px 20px 14px #4444dd;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 100%;
+    }
+
+    // &__noise {
+    //     height: 0;
+    //     width: 0;
+    //     visibility: hidden;
+    // }
+
+    &__text {
+        position: relative;
+        z-index: 3;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing: 2.5px;
+        color: inherit;
+        text-shadow: 2px 2px 4px rgba(000, 000, 000, 0.3);
+    }
+
+    &:hover {
+        #{$this}__effect {
+            border-color: rgb(255, 234, 118);
+            background-color: #f04100;
+            box-shadow: inset 0px 0px 25px 20px rgb(255, 132, 0);
+        }
+    }
+}

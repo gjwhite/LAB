@@ -5,5 +5,7 @@
     "prettier.packageManager": "yarn",
     "prettier.jsxSingleQuote": true,
     "prettier.jsxBracketSameLine": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnPaste": true
 }
